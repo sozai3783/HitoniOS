@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ShowRound" customModule="Hiton" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.59999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oAO-We-gBp">
+                    <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ShowRound_Dart" translatesAutoresizingMaskIntoConstraints="NO" id="B7B-Fm-L08">
+                    <rect key="frame" x="128" y="106" width="430" height="108"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="B7B-Fm-L08" secondAttribute="height" multiplier="1023:258" id="2h4-7d-gP1"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ShowRound_R1" translatesAutoresizingMaskIntoConstraints="NO" id="Pn1-JX-cWS">
+                    <rect key="frame" x="167" y="101" width="292" height="118"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ShowRound_1" translatesAutoresizingMaskIntoConstraints="NO" id="7vM-fz-gYg">
+                    <rect key="frame" x="0.0" y="0.0" width="330" height="320"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="7vM-fz-gYg" secondAttribute="height" multiplier="743:720" id="yRb-na-0xe"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Pn1-JX-cWS" firstAttribute="centerX" secondItem="B7B-Fm-L08" secondAttribute="centerX" constant="-30" id="5zG-4K-zNu"/>
+                <constraint firstItem="7vM-fz-gYg" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="BcR-xT-3E3"/>
+                <constraint firstAttribute="trailing" secondItem="oAO-We-gBp" secondAttribute="trailing" id="Cg8-m0-iZE"/>
+                <constraint firstItem="Pn1-JX-cWS" firstAttribute="centerY" secondItem="B7B-Fm-L08" secondAttribute="centerY" id="FRO-Kb-fyQ"/>
+                <constraint firstItem="oAO-We-gBp" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="GRu-YV-O2a"/>
+                <constraint firstItem="B7B-Fm-L08" firstAttribute="width" secondItem="7vM-fz-gYg" secondAttribute="height" multiplier="43:32" id="MLO-xt-mt3"/>
+                <constraint firstItem="Pn1-JX-cWS" firstAttribute="width" secondItem="B7B-Fm-L08" secondAttribute="height" multiplier="97:36" id="ZFj-Tq-XSR"/>
+                <constraint firstItem="7vM-fz-gYg" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ecN-te-Gs7"/>
+                <constraint firstAttribute="trailing" secondItem="B7B-Fm-L08" secondAttribute="trailing" constant="10" id="end-NX-ezO"/>
+                <constraint firstAttribute="bottom" secondItem="oAO-We-gBp" secondAttribute="bottom" id="exC-mT-wLV"/>
+                <constraint firstItem="oAO-We-gBp" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="lZ0-Bu-YYf"/>
+                <constraint firstItem="B7B-Fm-L08" firstAttribute="centerX" relation="greaterThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="centerX" constant="-3000" id="mA5-m3-Jxg"/>
+                <constraint firstAttribute="bottom" secondItem="7vM-fz-gYg" secondAttribute="bottom" id="skB-Ep-WgW"/>
+                <constraint firstItem="B7B-Fm-L08" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="y5F-oY-QWJ"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <connections>
+                <outlet property="BG" destination="oAO-We-gBp" id="DHc-n0-CBP"/>
+                <outlet property="Dart" destination="B7B-Fm-L08" id="U2C-6M-YHk"/>
+                <outlet property="DartRightConstraint" destination="end-NX-ezO" id="ubd-6Y-NJU"/>
+                <outlet property="Human" destination="7vM-fz-gYg" id="YtS-V0-bDq"/>
+                <outlet property="HumanLeftConstraint" destination="BcR-xT-3E3" id="AZZ-H6-ULu"/>
+                <outlet property="Round" destination="Pn1-JX-cWS" id="odb-oi-g9F"/>
+            </connections>
+            <point key="canvasLocation" x="362" y="276"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ShowRound_1" width="743" height="720"/>
+        <image name="ShowRound_Dart" width="1023" height="258"/>
+        <image name="ShowRound_R1" width="593" height="118"/>
+    </resources>
+</document>

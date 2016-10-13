@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="View_GamePR" customModule="Hiton" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="practice all" translatesAutoresizingMaskIntoConstraints="NO" id="ChZ-1e-r3h">
+                    <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="ChZ-1e-r3h" secondAttribute="height" multiplier="1:1" id="Arq-i9-Etc"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="ChZ-1e-r3h" secondAttribute="trailing" id="HgX-st-Xyc"/>
+                <constraint firstItem="ChZ-1e-r3h" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="c6x-LN-09A"/>
+                <constraint firstAttribute="bottom" secondItem="ChZ-1e-r3h" secondAttribute="bottom" id="jbu-RH-icx"/>
+                <constraint firstItem="ChZ-1e-r3h" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="xdP-ws-LyW"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="img" destination="ChZ-1e-r3h" id="nEV-Of-Kib"/>
+            </connections>
+            <point key="canvasLocation" x="253" y="341"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="practice all" width="267" height="267"/>
+    </resources>
+</document>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="RemoveDart" customModule="Hiton" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.59999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tKm-zA-5up">
+                    <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RemoveDartsBoard" translatesAutoresizingMaskIntoConstraints="NO" id="YLr-P0-mo6">
+                    <rect key="frame" x="176" y="52" width="216" height="216"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="YLr-P0-mo6" secondAttribute="height" multiplier="1:1" id="4dv-M8-i9e"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RemoveDartBG" translatesAutoresizingMaskIntoConstraints="NO" id="ZpR-3N-VJ2">
+                    <rect key="frame" x="59" y="122" width="451" height="76"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="ZpR-3N-VJ2" secondAttribute="height" multiplier="1104:185" id="xvs-iA-ajd"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RemoveDarts3" translatesAutoresizingMaskIntoConstraints="NO" id="mfR-mT-wht">
+                    <rect key="frame" x="260" y="36" width="49" height="249"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="mfR-mT-wht" secondAttribute="height" multiplier="121:608" id="qSt-3N-Yuv"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RemoveDarts1" translatesAutoresizingMaskIntoConstraints="NO" id="qDw-VL-SBy">
+                    <rect key="frame" x="192" y="62" width="185" height="195"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="qDw-VL-SBy" secondAttribute="height" multiplier="404:425" id="Nnv-Jl-qSV"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RemoveDarts2" translatesAutoresizingMaskIntoConstraints="NO" id="8UP-Fc-PH1">
+                    <rect key="frame" x="192" y="63" width="185" height="195"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RemoveDarts" translatesAutoresizingMaskIntoConstraints="NO" id="rxi-PG-nen">
+                    <rect key="frame" x="136" y="146" width="297" height="28"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="rxi-PG-nen" secondAttribute="height" multiplier="750:70" id="YoA-AB-unz"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="ZpR-3N-VJ2" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="6Yx-uH-knH"/>
+                <constraint firstItem="qDw-VL-SBy" firstAttribute="width" secondItem="YLr-P0-mo6" secondAttribute="height" multiplier="185:216" id="6op-oM-zvO"/>
+                <constraint firstItem="tKm-zA-5up" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="72f-vH-oOs"/>
+                <constraint firstItem="8UP-Fc-PH1" firstAttribute="width" secondItem="YLr-P0-mo6" secondAttribute="height" multiplier="185:216" id="9yT-L7-Pdr"/>
+                <constraint firstItem="rxi-PG-nen" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="B5S-CW-ZRJ"/>
+                <constraint firstItem="YLr-P0-mo6" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="BYk-Qx-8nV"/>
+                <constraint firstItem="rxi-PG-nen" firstAttribute="width" secondItem="ZpR-3N-VJ2" secondAttribute="height" multiplier="299:76" id="Bo0-AH-GA1"/>
+                <constraint firstItem="mfR-mT-wht" firstAttribute="width" secondItem="YLr-P0-mo6" secondAttribute="height" multiplier="49:216" id="CII-0M-BiW"/>
+                <constraint firstItem="qDw-VL-SBy" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="CLU-Sc-FNF"/>
+                <constraint firstItem="mfR-mT-wht" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="HPe-Uq-CcW"/>
+                <constraint firstAttribute="trailing" secondItem="tKm-zA-5up" secondAttribute="trailing" id="LbG-1h-Jnr"/>
+                <constraint firstAttribute="bottom" secondItem="tKm-zA-5up" secondAttribute="bottom" id="Mru-Q9-fC2"/>
+                <constraint firstItem="YLr-P0-mo6" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Wr8-qF-Xzb"/>
+                <constraint firstItem="tKm-zA-5up" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="aqX-60-NEK"/>
+                <constraint firstItem="qDw-VL-SBy" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="b9Q-Fo-EGJ"/>
+                <constraint firstItem="8UP-Fc-PH1" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="bC4-nd-0nK"/>
+                <constraint firstItem="8UP-Fc-PH1" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="esO-Tg-QCj"/>
+                <constraint firstItem="mfR-mT-wht" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="fAl-b9-fdZ"/>
+                <constraint firstItem="ZpR-3N-VJ2" firstAttribute="width" secondItem="YLr-P0-mo6" secondAttribute="height" multiplier="451:216" id="oWe-cF-lRZ"/>
+                <constraint firstItem="ZpR-3N-VJ2" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="shK-f9-g8q"/>
+                <constraint firstItem="rxi-PG-nen" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="u12-ZC-is3"/>
+                <constraint firstItem="YLr-P0-mo6" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="27:40" id="vaQ-ea-Hmd"/>
+                <constraint firstItem="8UP-Fc-PH1" firstAttribute="width" secondItem="8UP-Fc-PH1" secondAttribute="height" multiplier="404:425" id="wpy-82-C5F"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <connections>
+                <outlet property="d1" destination="qDw-VL-SBy" id="QXT-hQ-aru"/>
+                <outlet property="d2" destination="mfR-mT-wht" id="Lpg-Mr-ERM"/>
+                <outlet property="d3" destination="8UP-Fc-PH1" id="82T-qe-0ZJ"/>
+            </connections>
+            <point key="canvasLocation" x="399" y="244"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="RemoveDartBG" width="1104" height="185"/>
+        <image name="RemoveDarts" width="750" height="70"/>
+        <image name="RemoveDarts1" width="404" height="425"/>
+        <image name="RemoveDarts2" width="404" height="425"/>
+        <image name="RemoveDarts3" width="121" height="608"/>
+        <image name="RemoveDartsBoard" width="484" height="482"/>
+    </resources>
+</document>

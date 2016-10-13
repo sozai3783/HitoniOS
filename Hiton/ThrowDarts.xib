@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="GOTHIC.TTF">
+            <string>CenturyGothic</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ThrowDarts" customModule="Hiton" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.59999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1OQ-eD-bWV">
+                    <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ThrowDartsBG" translatesAutoresizingMaskIntoConstraints="NO" id="Mby-Ia-Lat">
+                    <rect key="frame" x="10" y="106" width="430" height="108"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="Mby-Ia-Lat" secondAttribute="height" multiplier="1023:258" id="1gF-nM-SQF"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ThrowDarts" translatesAutoresizingMaskIntoConstraints="NO" id="4zN-4f-4Ex">
+                    <rect key="frame" x="247" y="122" width="173" height="76"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="4zN-4f-4Ex" secondAttribute="height" multiplier="390:171" id="IzB-5a-IpO"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Player 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ut2-HZ-ZDt">
+                    <rect key="frame" x="10" y="122" width="237" height="75"/>
+                    <fontDescription key="fontDescription" name="CenturyGothic" family="Century Gothic" pointSize="40"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ThrowDarts_1" translatesAutoresizingMaskIntoConstraints="NO" id="1zz-Ad-HLs">
+                    <rect key="frame" x="238" y="0.0" width="330" height="320"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="1zz-Ad-HLs" secondAttribute="height" multiplier="743:720" id="YKf-oo-nOV"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="1zz-Ad-HLs" secondAttribute="bottom" id="07i-Z4-Syz"/>
+                <constraint firstAttribute="bottom" secondItem="1OQ-eD-bWV" secondAttribute="bottom" id="1LE-db-Sl6"/>
+                <constraint firstItem="4zN-4f-4Ex" firstAttribute="centerY" secondItem="Mby-Ia-Lat" secondAttribute="centerY" id="3FW-yo-XIv"/>
+                <constraint firstItem="ut2-HZ-ZDt" firstAttribute="centerY" secondItem="Mby-Ia-Lat" secondAttribute="centerY" id="EIb-f3-EWv"/>
+                <constraint firstItem="Mby-Ia-Lat" firstAttribute="width" secondItem="1zz-Ad-HLs" secondAttribute="height" multiplier="43:32" id="HPA-Tt-E5u"/>
+                <constraint firstItem="4zN-4f-4Ex" firstAttribute="leading" secondItem="ut2-HZ-ZDt" secondAttribute="trailing" id="Ks8-wY-eaO"/>
+                <constraint firstItem="4zN-4f-4Ex" firstAttribute="width" secondItem="Mby-Ia-Lat" secondAttribute="height" multiplier="43:27" id="MQI-mq-WJP"/>
+                <constraint firstAttribute="trailing" secondItem="1zz-Ad-HLs" secondAttribute="trailing" id="OOx-a1-bqQ"/>
+                <constraint firstItem="4zN-4f-4Ex" firstAttribute="trailing" secondItem="Mby-Ia-Lat" secondAttribute="trailing" constant="-20" id="PUY-N7-cdh"/>
+                <constraint firstItem="ut2-HZ-ZDt" firstAttribute="leading" secondItem="Mby-Ia-Lat" secondAttribute="leading" id="Qn5-jP-ZFj"/>
+                <constraint firstItem="1zz-Ad-HLs" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="TJj-Le-baE"/>
+                <constraint firstItem="Mby-Ia-Lat" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="cqB-0t-2uU"/>
+                <constraint firstAttribute="trailing" secondItem="1OQ-eD-bWV" secondAttribute="trailing" id="dLz-MD-71f"/>
+                <constraint firstItem="Mby-Ia-Lat" firstAttribute="centerX" relation="greaterThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="centerX" constant="-3000" id="dNA-yT-CMB"/>
+                <constraint firstItem="ut2-HZ-ZDt" firstAttribute="height" secondItem="4zN-4f-4Ex" secondAttribute="height" id="deV-N5-eJi"/>
+                <constraint firstItem="1OQ-eD-bWV" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="lwu-mq-JmB"/>
+                <constraint firstItem="1OQ-eD-bWV" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="sia-hl-zMP"/>
+                <constraint firstItem="Mby-Ia-Lat" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="vYs-bZ-h1w"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <connections>
+                <outlet property="BG" destination="1OQ-eD-bWV" id="RP3-rw-wOb"/>
+                <outlet property="DartLeftConstraint" destination="cqB-0t-2uU" id="IX9-j1-uJW"/>
+                <outlet property="Human" destination="1zz-Ad-HLs" id="lff-nV-lhI"/>
+                <outlet property="PlayerName" destination="ut2-HZ-ZDt" id="4Mv-5s-HXK"/>
+            </connections>
+            <point key="canvasLocation" x="253" y="287"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ThrowDarts" width="390" height="171"/>
+        <image name="ThrowDartsBG" width="1023" height="258"/>
+        <image name="ThrowDarts_1" width="743" height="720"/>
+    </resources>
+</document>

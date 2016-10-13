@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="GOTHIC.TTF">
+            <string>CenturyGothic</string>
+            <string>CenturyGothic</string>
+            <string>CenturyGothic</string>
+            <string>CenturyGothic</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ScoreBar_4Player" customModule="Hiton" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="568" height="83"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Game01_4_1" translatesAutoresizingMaskIntoConstraints="NO" id="bfl-Yx-rDB">
+                    <rect key="frame" x="10" y="30" width="152" height="53"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="bfl-Yx-rDB" secondAttribute="height" multiplier="283:100" id="c0n-mA-tgz"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Game01_4_2" translatesAutoresizingMaskIntoConstraints="NO" id="osV-RD-izE">
+                    <rect key="frame" x="150" y="37" width="129" height="46"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="osV-RD-izE" secondAttribute="height" multiplier="283:100" id="3fE-Po-eV2"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Game01_4_3" translatesAutoresizingMaskIntoConstraints="NO" id="jfP-bm-FYJ">
+                    <rect key="frame" x="289" y="37" width="130" height="46"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Game01_4_4" translatesAutoresizingMaskIntoConstraints="NO" id="N1O-dd-Z95">
+                    <rect key="frame" x="429" y="37" width="129" height="46"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="N1O-dd-Z95" secondAttribute="height" multiplier="283:100" id="ZRQ-DU-Kcz"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Player Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gm0-rm-lE3">
+                    <rect key="frame" x="39" y="28" width="94" height="13"/>
+                    <fontDescription key="fontDescription" name="CenturyGothic" family="Century Gothic" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Player Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="foI-vU-jPm">
+                    <rect key="frame" x="448" y="37" width="94" height="12"/>
+                    <fontDescription key="fontDescription" name="CenturyGothic" family="Century Gothic" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Player Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gOy-gy-3jq">
+                    <rect key="frame" x="179" y="37" width="94" height="12"/>
+                    <fontDescription key="fontDescription" name="CenturyGothic" family="Century Gothic" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Player Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QPl-vb-prK">
+                    <rect key="frame" x="314" y="37" width="94" height="12"/>
+                    <fontDescription key="fontDescription" name="CenturyGothic" family="Century Gothic" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OqW-CL-YtP">
+                    <rect key="frame" x="316" y="50" width="89" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="OqW-CL-YtP" secondAttribute="height" multiplier="106:37" id="bR6-Kk-p64"/>
+                    </constraints>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Szk-CV-y74">
+                    <rect key="frame" x="168" y="49" width="92" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="Szk-CV-y74" secondAttribute="height" multiplier="106:37" id="r5i-z2-U1D"/>
+                    </constraints>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rtp-h3-pY8">
+                    <rect key="frame" x="30" y="44" width="103" height="36"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="Rtp-h3-pY8" secondAttribute="height" multiplier="106:37" id="cUD-zj-Shr"/>
+                    </constraints>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PiE-qY-Yzb">
+                    <rect key="frame" x="447" y="49" width="92" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="PiE-qY-Yzb" secondAttribute="height" multiplier="106:37" id="Ryw-K3-RtN"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="osV-RD-izE" secondAttribute="bottom" id="05L-Lg-Wf1"/>
+                <constraint firstAttribute="bottom" secondItem="N1O-dd-Z95" secondAttribute="bottom" id="1AK-cO-hVq"/>
+                <constraint firstItem="foI-vU-jPm" firstAttribute="centerX" secondItem="N1O-dd-Z95" secondAttribute="centerX" id="1B0-72-ZKr"/>
+                <constraint firstAttribute="trailing" secondItem="N1O-dd-Z95" secondAttribute="trailing" constant="10" id="1Ja-lR-ejS"/>
+                <constraint firstItem="N1O-dd-Z95" firstAttribute="width" secondItem="jfP-bm-FYJ" secondAttribute="width" id="23B-ZY-52n"/>
+                <constraint firstItem="Gm0-rm-lE3" firstAttribute="top" secondItem="bfl-Yx-rDB" secondAttribute="top" constant="-2" id="2LY-CC-8MP"/>
+                <constraint firstItem="OqW-CL-YtP" firstAttribute="centerY" secondItem="jfP-bm-FYJ" secondAttribute="centerY" constant="5" id="45t-qd-TaZ"/>
+                <constraint firstItem="PiE-qY-Yzb" firstAttribute="top" secondItem="foI-vU-jPm" secondAttribute="bottom" constant="1" id="4hw-ig-RLq"/>
+                <constraint firstItem="Rtp-h3-pY8" firstAttribute="centerY" secondItem="bfl-Yx-rDB" secondAttribute="centerY" constant="5" id="5jM-1o-8EC"/>
+                <constraint firstItem="PiE-qY-Yzb" firstAttribute="width" secondItem="N1O-dd-Z95" secondAttribute="height" multiplier="112:55" id="5xo-8Q-zeI"/>
+                <constraint firstItem="OqW-CL-YtP" firstAttribute="top" secondItem="QPl-vb-prK" secondAttribute="bottom" constant="1" id="DLb-5e-8ZI"/>
+                <constraint firstItem="QPl-vb-prK" firstAttribute="top" secondItem="jfP-bm-FYJ" secondAttribute="top" constant="-2" id="DQX-z0-TRD"/>
+                <constraint firstItem="jfP-bm-FYJ" firstAttribute="leading" secondItem="osV-RD-izE" secondAttribute="trailing" constant="10" id="EpO-xH-UzA"/>
+                <constraint firstItem="Rtp-h3-pY8" firstAttribute="width" secondItem="bfl-Yx-rDB" secondAttribute="height" multiplier="112:55" id="FfF-R3-1Gp"/>
+                <constraint firstItem="gOy-gy-3jq" firstAttribute="centerX" secondItem="osV-RD-izE" secondAttribute="centerX" id="IVO-ac-Pmg"/>
+                <constraint firstItem="gOy-gy-3jq" firstAttribute="top" secondItem="osV-RD-izE" secondAttribute="top" constant="-2" id="JWI-fL-ARD"/>
+                <constraint firstItem="OqW-CL-YtP" firstAttribute="width" secondItem="jfP-bm-FYJ" secondAttribute="height" multiplier="112:55" id="KPW-yq-OLW"/>
+                <constraint firstItem="bfl-Yx-rDB" firstAttribute="width" secondItem="osV-RD-izE" secondAttribute="width" id="LgQ-94-yoE"/>
+                <constraint firstItem="foI-vU-jPm" firstAttribute="top" secondItem="N1O-dd-Z95" secondAttribute="top" constant="-2" id="Lpk-ZB-bHX"/>
+                <constraint firstItem="PiE-qY-Yzb" firstAttribute="centerY" secondItem="N1O-dd-Z95" secondAttribute="centerY" constant="5" id="Lsd-8n-JMq"/>
+                <constraint firstItem="Szk-CV-y74" firstAttribute="centerY" secondItem="osV-RD-izE" secondAttribute="centerY" constant="5" id="Nw8-Qa-qL2"/>
+                <constraint firstItem="Szk-CV-y74" firstAttribute="width" secondItem="osV-RD-izE" secondAttribute="height" multiplier="112:55" id="OnR-A2-OEr"/>
+                <constraint firstAttribute="bottom" secondItem="bfl-Yx-rDB" secondAttribute="bottom" id="SMo-zM-NRr"/>
+                <constraint firstItem="Gm0-rm-lE3" firstAttribute="centerX" secondItem="bfl-Yx-rDB" secondAttribute="centerX" id="UOX-BP-ltP"/>
+                <constraint firstItem="PiE-qY-Yzb" firstAttribute="centerX" secondItem="N1O-dd-Z95" secondAttribute="centerX" id="VSg-Q5-pti"/>
+                <constraint firstAttribute="bottom" secondItem="jfP-bm-FYJ" secondAttribute="bottom" id="bUA-hQ-VBz"/>
+                <constraint firstItem="Szk-CV-y74" firstAttribute="top" secondItem="gOy-gy-3jq" secondAttribute="bottom" constant="1" id="bYa-0g-oPh"/>
+                <constraint firstItem="osV-RD-izE" firstAttribute="leading" secondItem="bfl-Yx-rDB" secondAttribute="trailing" constant="10" id="cOY-2O-I7V"/>
+                <constraint firstItem="Rtp-h3-pY8" firstAttribute="top" secondItem="Gm0-rm-lE3" secondAttribute="bottom" constant="1" id="nz3-Lw-49W"/>
+                <constraint firstItem="jfP-bm-FYJ" firstAttribute="width" secondItem="osV-RD-izE" secondAttribute="width" id="oyQ-pp-MdE"/>
+                <constraint firstItem="QPl-vb-prK" firstAttribute="centerX" secondItem="jfP-bm-FYJ" secondAttribute="centerX" id="pw9-QR-A2R"/>
+                <constraint firstItem="jfP-bm-FYJ" firstAttribute="width" secondItem="jfP-bm-FYJ" secondAttribute="height" multiplier="283:100" id="rGE-vg-cen"/>
+                <constraint firstItem="Rtp-h3-pY8" firstAttribute="centerX" secondItem="bfl-Yx-rDB" secondAttribute="centerX" id="tlM-S3-j2j"/>
+                <constraint firstItem="bfl-Yx-rDB" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="tvY-b5-3Cx"/>
+                <constraint firstItem="Szk-CV-y74" firstAttribute="centerX" secondItem="osV-RD-izE" secondAttribute="centerX" id="uIh-lY-FKX"/>
+                <constraint firstItem="N1O-dd-Z95" firstAttribute="leading" secondItem="jfP-bm-FYJ" secondAttribute="trailing" constant="10" id="uzW-6a-UVh"/>
+                <constraint firstItem="OqW-CL-YtP" firstAttribute="centerX" secondItem="jfP-bm-FYJ" secondAttribute="centerX" id="zgr-fY-CQQ"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="P1_BG" destination="bfl-Yx-rDB" id="qWM-hu-Kdd"/>
+                <outlet property="P2_BG" destination="osV-RD-izE" id="75y-D8-SOd"/>
+                <outlet property="P3_BG" destination="jfP-bm-FYJ" id="jWl-Ej-JlX"/>
+                <outlet property="P4_BG" destination="N1O-dd-Z95" id="qED-14-M9L"/>
+                <outlet property="Player2Score" destination="Szk-CV-y74" id="5PY-v8-H9u"/>
+                <outlet property="Player3Score" destination="OqW-CL-YtP" id="4KT-yd-Mjq"/>
+                <outlet property="Player4Score" destination="PiE-qY-Yzb" id="5qK-o4-oEr"/>
+                <outlet property="PlayerScore" destination="Rtp-h3-pY8" id="ply-GV-jIw"/>
+                <outlet property="line" destination="LgQ-94-yoE" id="7Xu-3g-A3y"/>
+                <outlet property="line1" destination="oyQ-pp-MdE" id="xN6-Lx-RMx"/>
+                <outlet property="line2" destination="23B-ZY-52n" id="KRK-gv-w89"/>
+            </connections>
+            <point key="canvasLocation" x="253" y="390.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Game01_4_1" width="283" height="136"/>
+        <image name="Game01_4_2" width="283" height="136"/>
+        <image name="Game01_4_3" width="283" height="136"/>
+        <image name="Game01_4_4" width="283" height="136"/>
+    </resources>
+</document>

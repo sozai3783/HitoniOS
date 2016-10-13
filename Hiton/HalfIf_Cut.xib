@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HalfIf_Cut" customModule="Hiton" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="samurai_clear" translatesAutoresizingMaskIntoConstraints="NO" id="CEz-My-cce">
+                    <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="CEz-My-cce" secondAttribute="height" multiplier="1280:720" id="QHa-2J-vuL"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="half_cut" translatesAutoresizingMaskIntoConstraints="NO" id="apA-uh-z3x">
+                    <rect key="frame" x="41" y="29" width="217" height="154"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="apA-uh-z3x" secondAttribute="height" multiplier="738:523" id="kMS-aL-JMb"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="apA-uh-z3x" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="3Oc-nv-oDU"/>
+                <constraint firstItem="apA-uh-z3x" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="217:320" id="4xY-g1-I6a"/>
+                <constraint firstItem="apA-uh-z3x" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="BYq-R4-GIt"/>
+                <constraint firstItem="CEz-My-cce" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="IhG-Xg-Wen"/>
+                <constraint firstItem="CEz-My-cce" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="QEa-0C-sil"/>
+                <constraint firstItem="CEz-My-cce" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Rdd-bB-5t4"/>
+                <constraint firstAttribute="bottom" secondItem="CEz-My-cce" secondAttribute="bottom" id="kJC-Gv-XeA"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <connections>
+                <outlet property="Cut" destination="apA-uh-z3x" id="qaj-Bp-f0z"/>
+                <outlet property="Cut_X" destination="BYq-R4-GIt" id="8RM-Nh-2Zs"/>
+                <outlet property="Cut_Y" destination="3Oc-nv-oDU" id="lXf-fH-9Kj"/>
+                <outlet property="Ninja_Bot" destination="kJC-Gv-XeA" id="ZdX-wq-c7P"/>
+                <outlet property="Ninja_Top" destination="IhG-Xg-Wen" id="Vh2-jq-ZQ3"/>
+                <outlet property="Ninjia" destination="CEz-My-cce" id="PxI-03-Dwx"/>
+            </connections>
+            <point key="canvasLocation" x="442" y="305"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="half_cut" width="738" height="523"/>
+        <image name="samurai_clear" width="1280" height="720"/>
+    </resources>
+</document>

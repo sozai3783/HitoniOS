@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="cell" rowHeight="175" id="bzI-RX-Kzd" customClass="CricketRoundTableViewCell" customModule="Hiton" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="120" height="27"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bzI-RX-Kzd" id="Wfy-S9-Xoa">
+                <rect key="frame" x="0.0" y="0.0" width="120" height="26"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VnQ-pK-NNZ">
+                        <rect key="frame" x="5" y="7" width="22" height="14"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="VnQ-pK-NNZ" secondAttribute="height" multiplier="23:20" id="HsB-hw-ToA"/>
+                            <constraint firstAttribute="width" secondItem="VnQ-pK-NNZ" secondAttribute="height" multiplier="25:16" id="vte-jr-SJw"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="HsB-hw-ToA"/>
+                            </mask>
+                        </variation>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xme-YB-Zoc">
+                        <rect key="frame" x="37" y="3" width="22" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="xme-YB-Zoc" secondAttribute="height" multiplier="1:1" id="7zz-yz-C1b"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wM6-7z-ffO">
+                        <rect key="frame" x="67" y="4" width="22" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="wM6-7z-ffO" secondAttribute="height" multiplier="1:1" id="He2-VX-TnU"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="P1_RoundSelect" translatesAutoresizingMaskIntoConstraints="NO" id="qyG-2W-tNz">
+                        <rect key="frame" x="0.0" y="24" width="120" height="5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="qyG-2W-tNz" secondAttribute="height" multiplier="270:65" id="WhG-D8-TyV"/>
+                            <constraint firstAttribute="width" secondItem="qyG-2W-tNz" secondAttribute="height" multiplier="270:65" id="ogh-Hr-zac"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="WhG-D8-TyV"/>
+                            </mask>
+                        </variation>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aQV-KO-Kyi">
+                        <rect key="frame" x="90" y="4" width="22" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="aQV-KO-Kyi" secondAttribute="height" multiplier="1:1" id="vHl-TW-iHj"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="qyG-2W-tNz" firstAttribute="leading" secondItem="Wfy-S9-Xoa" secondAttribute="leading" id="3Zs-1q-0pl"/>
+                    <constraint firstItem="xme-YB-Zoc" firstAttribute="centerY" secondItem="VnQ-pK-NNZ" secondAttribute="centerY" id="3ha-qV-eJP"/>
+                    <constraint firstItem="VnQ-pK-NNZ" firstAttribute="top" secondItem="Wfy-S9-Xoa" secondAttribute="top" constant="7" id="4lU-ap-bg7"/>
+                    <constraint firstItem="wM6-7z-ffO" firstAttribute="width" secondItem="xme-YB-Zoc" secondAttribute="width" id="87w-G4-yom"/>
+                    <constraint firstItem="wM6-7z-ffO" firstAttribute="width" secondItem="wM6-7z-ffO" secondAttribute="height" multiplier="1:1" id="8Mv-tg-tdS"/>
+                    <constraint firstItem="aQV-KO-Kyi" firstAttribute="leading" secondItem="wM6-7z-ffO" secondAttribute="trailing" constant="2" id="Esz-Eh-ZAz"/>
+                    <constraint firstItem="aQV-KO-Kyi" firstAttribute="width" secondItem="aQV-KO-Kyi" secondAttribute="height" multiplier="1:1" id="Gc4-Xw-xBt"/>
+                    <constraint firstAttribute="bottom" secondItem="xme-YB-Zoc" secondAttribute="bottom" constant="5" id="QZA-gI-Ll4"/>
+                    <constraint firstItem="wM6-7z-ffO" firstAttribute="height" secondItem="xme-YB-Zoc" secondAttribute="height" id="Ta5-Na-gdG"/>
+                    <constraint firstItem="aQV-KO-Kyi" firstAttribute="centerY" secondItem="wM6-7z-ffO" secondAttribute="centerY" id="TcR-od-ayQ"/>
+                    <constraint firstItem="xme-YB-Zoc" firstAttribute="top" secondItem="Wfy-S9-Xoa" secondAttribute="top" constant="5" id="X2X-QP-cSe"/>
+                    <constraint firstItem="aQV-KO-Kyi" firstAttribute="height" secondItem="wM6-7z-ffO" secondAttribute="height" id="Y5a-Eg-ccf"/>
+                    <constraint firstItem="xme-YB-Zoc" firstAttribute="width" secondItem="VnQ-pK-NNZ" secondAttribute="width" id="Zm1-p8-q0M"/>
+                    <constraint firstItem="aQV-KO-Kyi" firstAttribute="width" secondItem="wM6-7z-ffO" secondAttribute="width" id="iUF-wW-QL9"/>
+                    <constraint firstAttribute="bottom" secondItem="VnQ-pK-NNZ" secondAttribute="bottom" constant="5" id="iaN-if-v79"/>
+                    <constraint firstItem="wM6-7z-ffO" firstAttribute="centerY" secondItem="xme-YB-Zoc" secondAttribute="centerY" id="nmA-0H-hMX"/>
+                    <constraint firstItem="wM6-7z-ffO" firstAttribute="leading" secondItem="xme-YB-Zoc" secondAttribute="trailing" constant="2" id="oHh-lb-HJR"/>
+                    <constraint firstItem="xme-YB-Zoc" firstAttribute="leading" secondItem="VnQ-pK-NNZ" secondAttribute="trailing" constant="15" id="oOd-Cx-dv3"/>
+                    <constraint firstAttribute="trailing" secondItem="qyG-2W-tNz" secondAttribute="trailing" id="oP5-5E-I2J"/>
+                    <constraint firstItem="qyG-2W-tNz" firstAttribute="top" secondItem="Wfy-S9-Xoa" secondAttribute="top" id="the-Tm-SNk"/>
+                    <constraint firstItem="VnQ-pK-NNZ" firstAttribute="leading" secondItem="Wfy-S9-Xoa" secondAttribute="leading" constant="5" id="wH9-d3-tjB"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="3ha-qV-eJP"/>
+                        <exclude reference="Zm1-p8-q0M"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="Round" destination="VnQ-pK-NNZ" id="dFO-NO-pbo"/>
+                <outlet property="RoundSelected" destination="qyG-2W-tNz" id="GDv-DB-K2H"/>
+                <outletCollection property="CR_Images" destination="xme-YB-Zoc" collectionClass="NSMutableArray" id="3ec-qC-Mcg"/>
+                <outletCollection property="CR_Images" destination="wM6-7z-ffO" collectionClass="NSMutableArray" id="IDp-8N-ShH"/>
+                <outletCollection property="CR_Images" destination="aQV-KO-Kyi" collectionClass="NSMutableArray" id="YFp-a8-5k3"/>
+            </connections>
+            <point key="canvasLocation" x="280" y="317.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="P1_RoundSelect" width="270" height="65"/>
+    </resources>
+</document>

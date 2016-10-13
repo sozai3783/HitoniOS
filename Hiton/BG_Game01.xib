@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GameSelectViewController" customModule="Hiton" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="BG_Game01" customModule="Hiton" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BG_01" translatesAutoresizingMaskIntoConstraints="NO" id="LH7-Q6-d2h">
+                    <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BG_01_outFrame" translatesAutoresizingMaskIntoConstraints="NO" id="AsE-Ut-Gnr">
+                    <rect key="frame" x="410" y="123" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="AsE-Ut-Gnr" secondAttribute="height" multiplier="1:1" id="0aJ-e8-Yol"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BG_01_inFrame" translatesAutoresizingMaskIntoConstraints="NO" id="8Tm-wi-ODr">
+                    <rect key="frame" x="419" y="132" width="43" height="43"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="8Tm-wi-ODr" secondAttribute="height" multiplier="1:1" id="HMW-aa-1bV"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BG_01_01Font" translatesAutoresizingMaskIntoConstraints="NO" id="Huv-5x-1Ge">
+                    <rect key="frame" x="429" y="145" width="22" height="16"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="Huv-5x-1Ge" secondAttribute="height" multiplier="55:38" id="sGN-BG-Oqm"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BG_01_GameFont" translatesAutoresizingMaskIntoConstraints="NO" id="9RO-Dg-aOp">
+                    <rect key="frame" x="475" y="145" width="65" height="16"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="9RO-Dg-aOp" secondAttribute="height" multiplier="166:39" id="fV2-Qz-A9G"/>
+                    </constraints>
+                </imageView>
+                <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Select_01_1501" translatesAutoresizingMaskIntoConstraints="NO" id="yqj-Et-zws">
+                    <rect key="frame" x="471" y="132" width="74" height="8"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="yqj-Et-zws" secondAttribute="height" multiplier="183:20" id="g1N-45-ofw"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="LH7-Q6-d2h" secondAttribute="trailing" id="0dU-Bh-Q9S"/>
+                <constraint firstItem="9RO-Dg-aOp" firstAttribute="centerY" secondItem="AsE-Ut-Gnr" secondAttribute="centerY" id="2Oo-Ku-Y8s"/>
+                <constraint firstItem="LH7-Q6-d2h" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="3ZW-XN-DUX"/>
+                <constraint firstItem="yqj-Et-zws" firstAttribute="width" secondItem="9RO-Dg-aOp" secondAttribute="width" constant="9" id="479-38-mdI"/>
+                <constraint firstAttribute="trailing" secondItem="9RO-Dg-aOp" secondAttribute="trailing" constant="28" id="8Us-4O-GNd"/>
+                <constraint firstItem="8Tm-wi-ODr" firstAttribute="centerX" secondItem="AsE-Ut-Gnr" secondAttribute="centerX" id="CKJ-D0-6YI"/>
+                <constraint firstItem="LH7-Q6-d2h" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="FDY-2d-VzC"/>
+                <constraint firstItem="8Tm-wi-ODr" firstAttribute="width" secondItem="AsE-Ut-Gnr" secondAttribute="height" multiplier="43:60" id="JM9-Yq-WuX"/>
+                <constraint firstItem="AsE-Ut-Gnr" firstAttribute="centerY" secondItem="LH7-Q6-d2h" secondAttribute="centerY" constant="-7" id="Jo8-DS-YK0"/>
+                <constraint firstItem="yqj-Et-zws" firstAttribute="centerX" secondItem="9RO-Dg-aOp" secondAttribute="centerX" id="NBs-xe-0qA"/>
+                <constraint firstItem="AsE-Ut-Gnr" firstAttribute="width" secondItem="LH7-Q6-d2h" secondAttribute="height" multiplier="3:16" id="OIr-Fc-dPD"/>
+                <constraint firstItem="8Tm-wi-ODr" firstAttribute="centerY" secondItem="AsE-Ut-Gnr" secondAttribute="centerY" id="UA8-Gg-171"/>
+                <constraint firstItem="9RO-Dg-aOp" firstAttribute="top" secondItem="yqj-Et-zws" secondAttribute="bottom" constant="5" id="W2B-AO-5ox"/>
+                <constraint firstItem="Huv-5x-1Ge" firstAttribute="centerY" secondItem="8Tm-wi-ODr" secondAttribute="centerY" id="Zgx-l1-3jN"/>
+                <constraint firstItem="9RO-Dg-aOp" firstAttribute="leading" secondItem="AsE-Ut-Gnr" secondAttribute="trailing" constant="5" id="ebp-JL-AMh"/>
+                <constraint firstItem="AsE-Ut-Gnr" firstAttribute="leading" secondItem="LH7-Q6-d2h" secondAttribute="trailing" constant="-158" id="ie8-nz-tNh"/>
+                <constraint firstItem="Huv-5x-1Ge" firstAttribute="centerX" secondItem="8Tm-wi-ODr" secondAttribute="centerX" id="jLt-Fz-9wl"/>
+                <constraint firstAttribute="bottom" secondItem="LH7-Q6-d2h" secondAttribute="bottom" id="loj-kc-wsQ"/>
+                <constraint firstItem="Huv-5x-1Ge" firstAttribute="width" secondItem="8Tm-wi-ODr" secondAttribute="height" multiplier="23:43" id="sqX-6i-cu1"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <connections>
+                <outlet property="bg" destination="LH7-Q6-d2h" id="lBX-bB-iJx"/>
+                <outlet property="inFrame" destination="8Tm-wi-ODr" id="YUP-pm-5cU"/>
+                <outlet property="outFrame" destination="AsE-Ut-Gnr" id="nfe-xj-sbt"/>
+                <outlet property="outFrameXConstraint" destination="ie8-nz-tNh" id="msv-Vo-sB6"/>
+            </connections>
+            <point key="canvasLocation" x="253" y="326"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="BG_01" width="1280" height="720"/>
+        <image name="BG_01_01Font" width="55" height="38"/>
+        <image name="BG_01_GameFont" width="166" height="39"/>
+        <image name="BG_01_inFrame" width="100" height="100"/>
+        <image name="BG_01_outFrame" width="138" height="138"/>
+        <image name="Select_01_1501" width="183" height="20"/>
+    </resources>
+</document>

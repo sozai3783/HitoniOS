@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="GOTHIC.TTF">
+            <string>CenturyGothic</string>
+            <string>CenturyGothic</string>
+            <string>CenturyGothic</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ScoreBar_3Player" customModule="Hiton" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="568" height="114"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Game01_4_1" translatesAutoresizingMaskIntoConstraints="NO" id="Qjg-NI-xgq">
+                    <rect key="frame" x="30" y="59" width="156" height="55"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Game01_4_2" translatesAutoresizingMaskIntoConstraints="NO" id="6Us-FH-ddU">
+                    <rect key="frame" x="206" y="59" width="156" height="55"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Game01_4_3" translatesAutoresizingMaskIntoConstraints="NO" id="0j3-aZ-9j7">
+                    <rect key="frame" x="382" y="59" width="156" height="55"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="0j3-aZ-9j7" secondAttribute="height" multiplier="283:100" id="VFf-ky-fOK"/>
+                    </constraints>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ela-jG-9hA">
+                    <rect key="frame" x="404" y="72" width="112" height="39"/>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eTd-IR-Ous">
+                    <rect key="frame" x="52" y="72" width="112" height="39"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="eTd-IR-Ous" secondAttribute="height" multiplier="106:37" id="1Vy-OM-zbs"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Player Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o3Z-Lg-avq">
+                    <rect key="frame" x="61" y="57" width="94" height="14"/>
+                    <fontDescription key="fontDescription" name="CenturyGothic" family="Century Gothic" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Player Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j54-9P-Po2">
+                    <rect key="frame" x="237" y="57" width="94" height="14"/>
+                    <fontDescription key="fontDescription" name="CenturyGothic" family="Century Gothic" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Player Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PmI-Qo-4vT">
+                    <rect key="frame" x="413" y="57" width="94" height="14"/>
+                    <fontDescription key="fontDescription" name="CenturyGothic" family="Century Gothic" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BrX-g0-4Qs">
+                    <rect key="frame" x="228" y="72" width="112" height="39"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="BrX-g0-4Qs" secondAttribute="height" multiplier="106:37" id="C1I-gQ-71t"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Qjg-NI-xgq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="30" id="0Dd-U8-uqD"/>
+                <constraint firstItem="BrX-g0-4Qs" firstAttribute="centerX" secondItem="6Us-FH-ddU" secondAttribute="centerX" id="0Kw-xf-ffB"/>
+                <constraint firstItem="BrX-g0-4Qs" firstAttribute="top" secondItem="j54-9P-Po2" secondAttribute="bottom" constant="1" id="0mi-AX-uyV"/>
+                <constraint firstItem="Qjg-NI-xgq" firstAttribute="width" secondItem="Qjg-NI-xgq" secondAttribute="height" multiplier="283:100" id="1fE-Sc-J2a"/>
+                <constraint firstItem="eTd-IR-Ous" firstAttribute="centerX" secondItem="Qjg-NI-xgq" secondAttribute="centerX" id="5w9-bz-oUB"/>
+                <constraint firstItem="j54-9P-Po2" firstAttribute="top" secondItem="6Us-FH-ddU" secondAttribute="top" constant="-2" id="9SQ-qZ-jKd"/>
+                <constraint firstItem="Ela-jG-9hA" firstAttribute="width" secondItem="0j3-aZ-9j7" secondAttribute="height" multiplier="112:55" id="BaT-7z-1fk"/>
+                <constraint firstItem="0j3-aZ-9j7" firstAttribute="leading" secondItem="6Us-FH-ddU" secondAttribute="trailing" constant="20" id="Dud-FO-Hnk"/>
+                <constraint firstItem="Ela-jG-9hA" firstAttribute="width" secondItem="Ela-jG-9hA" secondAttribute="height" multiplier="106:37" id="Jya-0P-dvN"/>
+                <constraint firstItem="eTd-IR-Ous" firstAttribute="width" secondItem="Qjg-NI-xgq" secondAttribute="height" multiplier="112:55" id="KLv-CU-K3j"/>
+                <constraint firstItem="eTd-IR-Ous" firstAttribute="top" secondItem="o3Z-Lg-avq" secondAttribute="bottom" constant="1" id="Kpq-rP-bY8"/>
+                <constraint firstAttribute="bottom" secondItem="Qjg-NI-xgq" secondAttribute="bottom" id="OZN-b4-V7q"/>
+                <constraint firstAttribute="bottom" secondItem="6Us-FH-ddU" secondAttribute="bottom" id="PLb-zh-fDZ"/>
+                <constraint firstItem="6Us-FH-ddU" firstAttribute="leading" secondItem="Qjg-NI-xgq" secondAttribute="trailing" constant="20" id="RCZ-3S-5st"/>
+                <constraint firstItem="BrX-g0-4Qs" firstAttribute="width" secondItem="6Us-FH-ddU" secondAttribute="height" multiplier="112:55" id="TTR-cg-twg"/>
+                <constraint firstItem="6Us-FH-ddU" firstAttribute="width" secondItem="6Us-FH-ddU" secondAttribute="height" multiplier="283:100" id="U6l-K4-6KY"/>
+                <constraint firstItem="PmI-Qo-4vT" firstAttribute="centerX" secondItem="0j3-aZ-9j7" secondAttribute="centerX" id="UhM-ZW-cty"/>
+                <constraint firstItem="o3Z-Lg-avq" firstAttribute="centerX" secondItem="Qjg-NI-xgq" secondAttribute="centerX" id="VvZ-Po-eZP"/>
+                <constraint firstItem="o3Z-Lg-avq" firstAttribute="top" secondItem="Qjg-NI-xgq" secondAttribute="top" constant="-2" id="WIM-1K-VPM"/>
+                <constraint firstItem="0j3-aZ-9j7" firstAttribute="width" secondItem="6Us-FH-ddU" secondAttribute="width" id="ZxY-Vw-qaX"/>
+                <constraint firstItem="j54-9P-Po2" firstAttribute="centerX" secondItem="6Us-FH-ddU" secondAttribute="centerX" id="bUB-M0-lkC"/>
+                <constraint firstItem="eTd-IR-Ous" firstAttribute="centerY" secondItem="Qjg-NI-xgq" secondAttribute="centerY" constant="5" id="dB7-EZ-SGe"/>
+                <constraint firstItem="Ela-jG-9hA" firstAttribute="top" secondItem="PmI-Qo-4vT" secondAttribute="bottom" constant="1" id="eTK-e7-MKm"/>
+                <constraint firstItem="Ela-jG-9hA" firstAttribute="centerX" secondItem="0j3-aZ-9j7" secondAttribute="centerX" id="gbC-Vt-GcO"/>
+                <constraint firstItem="PmI-Qo-4vT" firstAttribute="top" secondItem="0j3-aZ-9j7" secondAttribute="top" constant="-2" id="hgl-ti-UQx"/>
+                <constraint firstItem="Qjg-NI-xgq" firstAttribute="width" secondItem="6Us-FH-ddU" secondAttribute="width" id="jzY-tN-7VZ"/>
+                <constraint firstItem="Ela-jG-9hA" firstAttribute="centerY" secondItem="0j3-aZ-9j7" secondAttribute="centerY" constant="5" id="tNj-pd-8oD"/>
+                <constraint firstItem="BrX-g0-4Qs" firstAttribute="centerY" secondItem="6Us-FH-ddU" secondAttribute="centerY" constant="5" id="trp-A4-Jyz"/>
+                <constraint firstAttribute="bottom" secondItem="0j3-aZ-9j7" secondAttribute="bottom" id="vmq-4i-UEd"/>
+                <constraint firstAttribute="trailing" secondItem="0j3-aZ-9j7" secondAttribute="trailing" constant="30" id="vqQ-Iq-8at"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="P1Left" destination="0Dd-U8-uqD" id="EMJ-9s-xdo"/>
+                <outlet property="P1Right" destination="RCZ-3S-5st" id="PKJ-hh-f35"/>
+                <outlet property="P1_BG" destination="Qjg-NI-xgq" id="Wsg-pa-FNH"/>
+                <outlet property="P2Right" destination="Dud-FO-Hnk" id="Ber-kI-Stu"/>
+                <outlet property="P2_BG" destination="6Us-FH-ddU" id="nH6-dM-6LU"/>
+                <outlet property="P3Right" destination="vqQ-Iq-8at" id="2zN-FV-cKo"/>
+                <outlet property="P3_BG" destination="0j3-aZ-9j7" id="Ij1-cy-wwx"/>
+                <outlet property="Player2Score" destination="BrX-g0-4Qs" id="qwa-fQ-k5M"/>
+                <outlet property="Player3Score" destination="Ela-jG-9hA" id="unf-FE-n9o"/>
+                <outlet property="PlayerScore" destination="eTd-IR-Ous" id="qii-gp-qsZ"/>
+                <outlet property="line" destination="jzY-tN-7VZ" id="hVA-Wq-Hi6"/>
+                <outlet property="line2" destination="ZxY-Vw-qaX" id="Pgb-fB-nff"/>
+            </connections>
+            <point key="canvasLocation" x="253" y="375"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Game01_4_1" width="283" height="136"/>
+        <image name="Game01_4_2" width="283" height="136"/>
+        <image name="Game01_4_3" width="283" height="136"/>
+    </resources>
+</document>

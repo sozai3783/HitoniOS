@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GameSelectViewController" customModule="Hiton" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="oiM-GG-tcv" customClass="View_Game01" customModule="Hiton" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menu_0011_01 out frame" translatesAutoresizingMaskIntoConstraints="NO" id="8JL-6O-y9v">
+                    <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="8JL-6O-y9v" secondAttribute="height" multiplier="1:1" id="25a-Hq-W2Z"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menu_0010_01 in frame" translatesAutoresizingMaskIntoConstraints="NO" id="cdu-QQ-rEz">
+                    <rect key="frame" x="28" y="28" width="145" height="145"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="cdu-QQ-rEz" secondAttribute="height" multiplier="1:1" id="J8F-7a-Rsb"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menu_0009_01" translatesAutoresizingMaskIntoConstraints="NO" id="2vp-Am-BUU">
+                    <rect key="frame" x="59" y="60" width="82" height="82"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="2vp-Am-BUU" secondAttribute="height" multiplier="1:1" id="Jfn-dm-xvV"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="8JL-6O-y9v" secondAttribute="trailing" id="9Zt-1l-2tw"/>
+                <constraint firstItem="2vp-Am-BUU" firstAttribute="centerY" secondItem="cdu-QQ-rEz" secondAttribute="centerY" id="CzX-sE-4rh"/>
+                <constraint firstItem="8JL-6O-y9v" firstAttribute="top" secondItem="oiM-GG-tcv" secondAttribute="top" id="FVn-h4-i9j"/>
+                <constraint firstItem="2vp-Am-BUU" firstAttribute="width" secondItem="cdu-QQ-rEz" secondAttribute="height" multiplier="82:145" id="Hg5-RP-fTQ"/>
+                <constraint firstItem="8JL-6O-y9v" firstAttribute="leading" secondItem="oiM-GG-tcv" secondAttribute="leading" id="MD5-pP-pyg"/>
+                <constraint firstItem="cdu-QQ-rEz" firstAttribute="centerX" secondItem="8JL-6O-y9v" secondAttribute="centerX" id="b8T-Lz-7lq"/>
+                <constraint firstItem="cdu-QQ-rEz" firstAttribute="width" secondItem="8JL-6O-y9v" secondAttribute="height" multiplier="29:40" id="dWe-e9-zgf"/>
+                <constraint firstAttribute="bottom" secondItem="8JL-6O-y9v" secondAttribute="bottom" id="hkP-BT-rF9"/>
+                <constraint firstItem="cdu-QQ-rEz" firstAttribute="centerY" secondItem="8JL-6O-y9v" secondAttribute="centerY" id="rFe-29-pVx"/>
+                <constraint firstItem="2vp-Am-BUU" firstAttribute="centerX" secondItem="cdu-QQ-rEz" secondAttribute="centerX" id="vxo-dD-5fF"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="inFrame" destination="cdu-QQ-rEz" id="MUq-Pd-FPt"/>
+                <outlet property="outFrame" destination="8JL-6O-y9v" id="1Ms-i9-dSE"/>
+            </connections>
+            <point key="canvasLocation" x="249" y="301"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="menu_0009_01" width="125" height="88"/>
+        <image name="menu_0010_01 in frame" width="226" height="226"/>
+        <image name="menu_0011_01 out frame" width="312" height="312"/>
+    </resources>
+</document>

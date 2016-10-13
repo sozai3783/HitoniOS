@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="View_GameVS" customModule="Hiton" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vs1" translatesAutoresizingMaskIntoConstraints="NO" id="6GT-m5-1fY">
+                    <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="6GT-m5-1fY" secondAttribute="height" multiplier="1:1" id="Ukt-Fb-lUA"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vs2" translatesAutoresizingMaskIntoConstraints="NO" id="ma7-Gh-0Oz">
+                    <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="ma7-Gh-0Oz" secondAttribute="height" multiplier="1:1" id="OTy-L7-MfX"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="6GT-m5-1fY" secondAttribute="trailing" id="2jG-5j-wqw"/>
+                <constraint firstItem="6GT-m5-1fY" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="4RI-4u-aOg"/>
+                <constraint firstItem="6GT-m5-1fY" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="AFb-ee-fqz"/>
+                <constraint firstAttribute="bottom" secondItem="6GT-m5-1fY" secondAttribute="bottom" id="Aeg-99-fOQ"/>
+                <constraint firstAttribute="trailing" secondItem="ma7-Gh-0Oz" secondAttribute="trailing" id="GJr-Pa-cCu"/>
+                <constraint firstItem="ma7-Gh-0Oz" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Srh-ik-sHw"/>
+                <constraint firstItem="ma7-Gh-0Oz" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="WKD-hv-Snd"/>
+                <constraint firstAttribute="bottom" secondItem="ma7-Gh-0Oz" secondAttribute="bottom" id="qSw-qk-41j"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="vs1" destination="6GT-m5-1fY" id="mhx-MO-9bx"/>
+                <outlet property="vs2" destination="ma7-Gh-0Oz" id="CPW-eo-mLz"/>
+            </connections>
+            <point key="canvasLocation" x="253" y="341"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="vs1" width="261" height="304"/>
+        <image name="vs2" width="261" height="304"/>
+    </resources>
+</document>

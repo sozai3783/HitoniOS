@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="cell" rowHeight="175" id="KGk-i7-Jjw" customClass="RoundTableViewCell" customModule="Hiton" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="120" height="27"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="120" height="26"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tGz-f6-TIq">
+                        <rect key="frame" x="5" y="7" width="22" height="14"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="tGz-f6-TIq" secondAttribute="height" multiplier="25:16" id="Tt1-eM-nj5"/>
+                            <constraint firstAttribute="width" secondItem="tGz-f6-TIq" secondAttribute="height" multiplier="23:20" id="Vvp-LJ-xmM"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Vvp-LJ-xmM"/>
+                            </mask>
+                        </variation>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WaT-b3-hCn">
+                        <rect key="frame" x="32" y="7" width="88" height="14"/>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="P1_RoundSelect" translatesAutoresizingMaskIntoConstraints="NO" id="Cf7-2v-das">
+                        <rect key="frame" x="0.0" y="0.0" width="120" height="29"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Cf7-2v-das" secondAttribute="height" multiplier="270:65" id="WRV-JI-WRJ"/>
+                            <constraint firstAttribute="width" secondItem="Cf7-2v-das" secondAttribute="height" multiplier="270:65" id="xLY-gc-36Q"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="xLY-gc-36Q"/>
+                            </mask>
+                        </variation>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="tGz-f6-TIq" secondAttribute="bottom" constant="5" id="40O-4Q-rXt"/>
+                    <constraint firstAttribute="trailing" secondItem="Cf7-2v-das" secondAttribute="trailing" id="4Ax-DW-w8S"/>
+                    <constraint firstItem="WaT-b3-hCn" firstAttribute="height" secondItem="tGz-f6-TIq" secondAttribute="height" id="99A-Lj-1rf"/>
+                    <constraint firstItem="Cf7-2v-das" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="GHi-l8-A6s"/>
+                    <constraint firstItem="WaT-b3-hCn" firstAttribute="leading" secondItem="tGz-f6-TIq" secondAttribute="trailing" constant="5" id="aRY-8Q-WcS"/>
+                    <constraint firstItem="tGz-f6-TIq" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="7" id="lvZ-Sz-V1E"/>
+                    <constraint firstItem="tGz-f6-TIq" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="mYg-de-Kde"/>
+                    <constraint firstItem="WaT-b3-hCn" firstAttribute="centerY" secondItem="tGz-f6-TIq" secondAttribute="centerY" id="nxY-5j-YHa"/>
+                    <constraint firstItem="Cf7-2v-das" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="pnJ-eA-OS9"/>
+                    <constraint firstAttribute="trailing" secondItem="WaT-b3-hCn" secondAttribute="trailing" id="ryB-Vt-AZR"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="Round" destination="tGz-f6-TIq" id="vK4-54-fML"/>
+                <outlet property="RoundScore" destination="WaT-b3-hCn" id="0Oj-bM-TOJ"/>
+                <outlet property="RoundSelected" destination="Cf7-2v-das" id="7kh-wf-rri"/>
+            </connections>
+            <point key="canvasLocation" x="317" y="368.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="P1_RoundSelect" width="270" height="65"/>
+    </resources>
+</document>

@@ -1,0 +1,7 @@
+/* 
+  Localizable.strings
+  Hiton
+
+  Created by yao on 01/04/2016.
+  Copyright © 2016 apsystem. All rights reserved.
+*/

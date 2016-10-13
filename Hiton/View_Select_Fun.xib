@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="TUz-x5-pcJ" customClass="View_Select_Fun" customModule="Hiton" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Select_MiddleFrame" translatesAutoresizingMaskIntoConstraints="NO" id="a5N-mV-aQt">
+                    <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DjB-2S-rw9">
+                    <rect key="frame" x="0.0" y="0.0" width="37" height="320"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="DjB-2S-rw9" secondAttribute="height" multiplier="66:567" id="jRP-b6-yW9"/>
+                    </constraints>
+                    <state key="normal" image="Select_LeftFrame"/>
+                    <connections>
+                        <action selector="leftPressed:" destination="TUz-x5-pcJ" eventType="touchUpInside" id="ZQM-cr-hNN"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Select_Fun_Left_LuckyBalloon" translatesAutoresizingMaskIntoConstraints="NO" id="F7G-ml-cvz">
+                    <rect key="frame" x="4" y="83" width="10" height="154"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GfS-7o-EwX">
+                    <rect key="frame" x="531" y="0.0" width="37" height="320"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="GfS-7o-EwX" secondAttribute="height" multiplier="66:567" id="i1Z-DL-qZD"/>
+                    </constraints>
+                    <state key="normal" image="Select_RightFrame"/>
+                    <connections>
+                        <action selector="rightPressed:" destination="TUz-x5-pcJ" eventType="touchUpInside" id="k1k-9G-ji7"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b9G-5Z-6TK">
+                    <rect key="frame" x="0.0" y="264" width="568" height="56"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="b9G-5Z-6TK" secondAttribute="height" multiplier="1280:127" id="Pr8-RM-IqG"/>
+                    </constraints>
+                    <state key="normal" image="Select_Bot"/>
+                    <connections>
+                        <action selector="backPressed:" destination="TUz-x5-pcJ" eventType="touchUpInside" id="uHd-bD-Qr5"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Select_Back" translatesAutoresizingMaskIntoConstraints="NO" id="XX9-ky-9Sp">
+                    <rect key="frame" x="248" y="282" width="72" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="XX9-ky-9Sp" secondAttribute="height" multiplier="129:35" id="GUX-MO-SNN"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Select_Fun_Right_LuckyBalloon" translatesAutoresizingMaskIntoConstraints="NO" id="akT-zp-eLO">
+                    <rect key="frame" x="555" y="83" width="10" height="154"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="akT-zp-eLO" secondAttribute="height" multiplier="17:263" id="JUZ-Dg-idZ"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GamePic_HalfIf" translatesAutoresizingMaskIntoConstraints="NO" id="Th7-bZ-1Oe">
+                    <rect key="frame" x="52" y="72" width="234" height="176"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="Th7-bZ-1Oe" secondAttribute="height" multiplier="528:396" id="PSi-rc-vdq"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Select_Top" translatesAutoresizingMaskIntoConstraints="NO" id="KXY-za-eeZ">
+                    <rect key="frame" x="0.0" y="0.0" width="568" height="56"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="KXY-za-eeZ" secondAttribute="height" multiplier="1280:126" id="5Ys-br-QcD"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Select_SGame" translatesAutoresizingMaskIntoConstraints="NO" id="UbM-HH-XRU">
+                    <rect key="frame" x="92" y="20" width="384" height="16"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="UbM-HH-XRU" secondAttribute="height" multiplier="24:1" id="ggE-a2-3AG"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="UbM-HH-XRU" firstAttribute="width" secondItem="KXY-za-eeZ" secondAttribute="height" multiplier="48:7" id="0Hh-fu-vvu"/>
+                <constraint firstItem="F7G-ml-cvz" firstAttribute="centerY" secondItem="DjB-2S-rw9" secondAttribute="centerY" id="3Aa-Nj-DaF"/>
+                <constraint firstAttribute="bottom" secondItem="DjB-2S-rw9" secondAttribute="bottom" id="3GP-tc-INO"/>
+                <constraint firstItem="Th7-bZ-1Oe" firstAttribute="leading" secondItem="DjB-2S-rw9" secondAttribute="trailing" constant="15" id="3Gp-Ms-KS0"/>
+                <constraint firstItem="XX9-ky-9Sp" firstAttribute="centerX" secondItem="b9G-5Z-6TK" secondAttribute="centerX" id="67p-SO-i8z"/>
+                <constraint firstAttribute="bottom" secondItem="a5N-mV-aQt" secondAttribute="bottom" id="8Pk-2S-Mbx"/>
+                <constraint firstItem="UbM-HH-XRU" firstAttribute="centerY" secondItem="KXY-za-eeZ" secondAttribute="centerY" id="CnL-l2-4Gj"/>
+                <constraint firstItem="XX9-ky-9Sp" firstAttribute="centerY" secondItem="b9G-5Z-6TK" secondAttribute="centerY" id="D45-Ta-7UV"/>
+                <constraint firstAttribute="bottom" secondItem="b9G-5Z-6TK" secondAttribute="bottom" id="DfD-RM-auv"/>
+                <constraint firstItem="GfS-7o-EwX" firstAttribute="top" secondItem="TUz-x5-pcJ" secondAttribute="top" id="Gbb-0u-pMo"/>
+                <constraint firstAttribute="trailing" secondItem="GfS-7o-EwX" secondAttribute="trailing" id="JAF-3L-QnH"/>
+                <constraint firstItem="akT-zp-eLO" firstAttribute="width" secondItem="GfS-7o-EwX" secondAttribute="height" multiplier="10:320" id="Jde-cz-0Un"/>
+                <constraint firstAttribute="bottom" secondItem="GfS-7o-EwX" secondAttribute="bottom" id="RWp-GY-n3t"/>
+                <constraint firstItem="F7G-ml-cvz" firstAttribute="centerX" secondItem="DjB-2S-rw9" secondAttribute="centerX" constant="-10" id="Yk6-QM-kuf"/>
+                <constraint firstItem="F7G-ml-cvz" firstAttribute="width" secondItem="DjB-2S-rw9" secondAttribute="height" multiplier="10:320" id="Z5s-3J-eGj"/>
+                <constraint firstItem="KXY-za-eeZ" firstAttribute="leading" secondItem="TUz-x5-pcJ" secondAttribute="leading" id="aZs-3A-szW"/>
+                <constraint firstItem="UbM-HH-XRU" firstAttribute="centerX" secondItem="KXY-za-eeZ" secondAttribute="centerX" id="agC-mn-H14"/>
+                <constraint firstItem="F7G-ml-cvz" firstAttribute="width" secondItem="F7G-ml-cvz" secondAttribute="height" multiplier="17:263" id="alK-jK-ZWh"/>
+                <constraint firstAttribute="trailing" secondItem="b9G-5Z-6TK" secondAttribute="trailing" id="axH-oV-Yi9"/>
+                <constraint firstAttribute="trailing" secondItem="KXY-za-eeZ" secondAttribute="trailing" id="clC-AE-y5X"/>
+                <constraint firstItem="a5N-mV-aQt" firstAttribute="top" secondItem="TUz-x5-pcJ" secondAttribute="top" id="dDi-PB-vi9"/>
+                <constraint firstItem="DjB-2S-rw9" firstAttribute="leading" secondItem="TUz-x5-pcJ" secondAttribute="leading" id="e73-MB-vUw"/>
+                <constraint firstAttribute="trailing" secondItem="a5N-mV-aQt" secondAttribute="trailing" id="f9E-as-Tpe"/>
+                <constraint firstItem="DjB-2S-rw9" firstAttribute="top" secondItem="TUz-x5-pcJ" secondAttribute="top" id="jxR-3b-aq7"/>
+                <constraint firstItem="Th7-bZ-1Oe" firstAttribute="width" secondItem="a5N-mV-aQt" secondAttribute="height" multiplier="117:160" id="mzf-hP-Q1E"/>
+                <constraint firstItem="a5N-mV-aQt" firstAttribute="leading" secondItem="TUz-x5-pcJ" secondAttribute="leading" id="o7t-jU-rDI"/>
+                <constraint firstItem="akT-zp-eLO" firstAttribute="centerY" secondItem="GfS-7o-EwX" secondAttribute="centerY" id="ozb-cS-2KS"/>
+                <constraint firstItem="Th7-bZ-1Oe" firstAttribute="centerY" secondItem="a5N-mV-aQt" secondAttribute="centerY" id="qBT-pW-gS0"/>
+                <constraint firstItem="b9G-5Z-6TK" firstAttribute="leading" secondItem="TUz-x5-pcJ" secondAttribute="leading" id="s1T-FD-pbr"/>
+                <constraint firstItem="akT-zp-eLO" firstAttribute="centerX" secondItem="GfS-7o-EwX" secondAttribute="centerX" constant="10" id="sQL-tf-FA9"/>
+                <constraint firstItem="XX9-ky-9Sp" firstAttribute="width" secondItem="b9G-5Z-6TK" secondAttribute="height" multiplier="41:32" id="u1l-EJ-PQI"/>
+                <constraint firstItem="KXY-za-eeZ" firstAttribute="top" secondItem="TUz-x5-pcJ" secondAttribute="top" id="uWB-ej-yfo"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <connections>
+                <outlet property="Button_Back" destination="b9G-5Z-6TK" id="MCT-OL-DL3"/>
+                <outlet property="Button_LeftFrame" destination="DjB-2S-rw9" id="vQ5-zQ-rW4"/>
+                <outlet property="Button_RightFrame" destination="GfS-7o-EwX" id="jfb-QK-5Lm"/>
+                <outlet property="ImageView_Back" destination="XX9-ky-9Sp" id="fKW-3W-96w"/>
+                <outlet property="ImageView_GamePic" destination="Th7-bZ-1Oe" id="Z13-hd-EsC"/>
+                <outlet property="ImageView_Left" destination="F7G-ml-cvz" id="6po-1f-xZc"/>
+                <outlet property="ImageView_MiddleFrame" destination="a5N-mV-aQt" id="ggF-iZ-xdJ"/>
+                <outlet property="ImageView_Right" destination="akT-zp-eLO" id="gwr-gA-hBC"/>
+                <outlet property="ImageView_SelectGame" destination="UbM-HH-XRU" id="VMj-28-4Mx"/>
+                <outlet property="ImageView_TopFrame" destination="KXY-za-eeZ" id="2OD-4D-BQe"/>
+                <outlet property="botFrameYConstraint" destination="DfD-RM-auv" id="fVj-kf-z6C"/>
+                <outlet property="leftFrameXConstraint" destination="e73-MB-vUw" id="qMI-4l-Uun"/>
+                <outlet property="rightFrameXConstraint" destination="JAF-3L-QnH" id="KPn-ie-gU9"/>
+                <outlet property="topFrameYConstraint" destination="uWB-ej-yfo" id="RQo-sM-cej"/>
+            </connections>
+            <point key="canvasLocation" x="318" y="280"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="GamePic_HalfIf" width="614" height="477"/>
+        <image name="Select_Back" width="129" height="35"/>
+        <image name="Select_Bot" width="1280" height="127"/>
+        <image name="Select_Fun_Left_LuckyBalloon" width="17" height="253"/>
+        <image name="Select_Fun_Right_LuckyBalloon" width="17" height="253"/>
+        <image name="Select_LeftFrame" width="66" height="567"/>
+        <image name="Select_MiddleFrame" width="1280" height="568"/>
+        <image name="Select_RightFrame" width="66" height="567"/>
+        <image name="Select_SGame" width="207" height="22"/>
+        <image name="Select_Top" width="1280" height="126"/>
+    </resources>
+</document>

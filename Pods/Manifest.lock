@@ -1,0 +1,32 @@
+PODS:
+  - AsyncImageView (1.5.1)
+  - CocoaAsyncSocket (7.4.3):
+    - CocoaAsyncSocket/All (= 7.4.3)
+  - CocoaAsyncSocket/All (7.4.3):
+    - CocoaAsyncSocket/GCD
+    - CocoaAsyncSocket/RunLoop
+  - CocoaAsyncSocket/GCD (7.4.3)
+  - CocoaAsyncSocket/RunLoop (7.4.3)
+  - RMActionController (1.0.5)
+  - RMPickerViewController (2.0.3):
+    - RMActionController (~> 1.0.5)
+  - TPKeyboardAvoiding (1.3)
+  - ZBarSDK (1.3.1)
+
+DEPENDENCIES:
+  - AsyncImageView
+  - CocoaAsyncSocket
+  - RMActionController
+  - RMPickerViewController
+  - TPKeyboardAvoiding
+  - ZBarSDK
+
+SPEC CHECKSUMS:
+  AsyncImageView: db9433939160710b34a5c249479e03af2a2121b0
+  CocoaAsyncSocket: a18c75dca4b08723628a0bacca6e94803d90be91
+  RMActionController: b83653e7452ed51492094d65dc82151c36443c03
+  RMPickerViewController: f774dbdfddfe819bbaf211d5719deebcbf1a55ed
+  TPKeyboardAvoiding: a5138f318c06fb3e151f886e18ce4a72695d9cbe
+  ZBarSDK: 4c1b5daeb7d6cc67dc9355e690af0230a661f6ec
+
+COCOAPODS: 0.38.2
